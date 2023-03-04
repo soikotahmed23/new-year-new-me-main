@@ -1,8 +1,10 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Work Sans;
 }
+/* hearder banner part styles */
+
+
 .banner{
     width: 100%;
     height: 100vh;
@@ -13,17 +15,8 @@
     
 
 }
-.btn1{
-    background-color: #F15B22;
-    color:#FFFFFF;
-    width: 160px;
-    height: 64px;
-    font-size: 20px;
-    line-height: 24px;
-    border-radius: 5px;
-    border: 0;
-    margin-top: 32px;
-}
+
+
 .container{
     text-align: right;
     padding-top: 160px;
@@ -39,44 +32,62 @@
     padding-top: 20px;
 }
 
+/* header btn part  styles*/
+
+.btn1{
+    background-color: #F15B22;
+    color:#FFFFFF;
+    width: 160px;
+    height: 64px;
+    font-size: 20px;
+    line-height: 24px;
+    border-radius: 5px;
+    border: 0;
+    margin-top: 32px;
+}
+
+
+
+/* My failurers part  styles*/
+
+
 .container2{
     display: flex;
     gap:80px;
 }
-.sub-contaier2{
-    padding-top: 340px;
-    
-
-}
-/* section 2 */
 .img-3{
     height:600px;
     margin-left: 200px;
     margin-top: 130px;
-   
-
-
 
 
 }
+.sub-contaier2{
+    padding-top: 340px;
+    
+}
+
+
 .title2{
     padding-bottom: 20px;
     font-size: 28px;
-
 }
+
 .sub-title2{
     padding-bottom: 14px;
     font-size: 13px;
-    font-family: Work Sans;
-    font-style: normal;
     font-weight: 400;
     line-height: 20px;
 
 }
-.dsaff{
-   margin-left: 30px;
-}
 
+/* my plan -skills part styles */
+
+.my-plan{
+    margin-top: 130px;
+    text-align: center;
+
+}
 .web-img{
     height: 90px;
     align-items: center;
@@ -93,15 +104,19 @@
     align-items: center;
 }
 
+/* watch bag gardt part styles */
 .watch{
 
     background-image: url('../images/watch.png');
-    height: 300px;
+   height: 350px;
     background-repeat: no-repeat;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 150px;
+    margin-right: 150px;
     margin-top: 100px;
-    border-radius: 8px;
+    border-radius: 10px;
+    border: 0;
+    margin-bottom: 100px;
+
    
 }
 .watch-title{
@@ -117,17 +132,68 @@
     border: 0;
     color: #F15B22;
     padding: 10px;
-    font-family:Work Sans ;
 
 
 }
-.gardient{
-    background-image: url(../images/gradient2.png);
+.gardient{ 
+    background-image: url(../images/gradient2.png); 
     background-repeat: no-repeat;
-    height: 300px;
+    height: 600px;
 }
-.my-plan{
-    margin-top: 130px;
-    text-align: center;
 
+/* input future  part styles */
+.input-fields-main-container{
+    background-color: #151414;
+    height:500px;
+    color:#FFFFFF;
+    display: flex;
+    
+}
+
+.input-sub-title{
+    font-size: 15px;
+}
+.future-sub-main-container{
+    padding-top: 140px;
+    margin-left: 180px;
+
+}
+.email{
+    margin-top: 22px;
+   
+}
+.phone{
+    margin-top: 14px;
+}
+
+/* subcribe input styles */
+.btn-subcribe{
+
+color: #F15B22;
+ font-weight: 600;
+font-size: 20px;
+padding: 15px 25px;
+margin-top: 10px;
+border-radius: 5px;
+border: 0;
+
+}
+.subscribe-sub-main-container{
+
+   padding-left: 360px;
+   padding-top: 155px;
+
+}
+.input-field{
+   margin-top: 30px;
+   height: 60px;
+   border-radius: 5px;
+   border: #151414;
+   padding-right:10px ;
+   padding-left:10px ;
+   background-color:#151414;
+   color:#FFFFFF;
+   border: 1px solid#FFFFFF;
+
+   
 }
