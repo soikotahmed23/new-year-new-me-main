@@ -47,24 +47,30 @@
 }
 
 
-
+    
 /* My failurers part  styles*/
 
+.shape{
 
+    height: 469px;
+    width:463px ;
+    border-radius: 50%;
+    background-color: black;
+}
 .container2{
     display: flex;
-    gap:80px;
+    gap:80px; 
 }
 .img-3{
     height:600px;
     margin-left: 200px;
-    margin-top: 130px;
-
-
+    padding-top: 130px;
+   padding-bottom: 130px;
+   
 }
 .sub-contaier2{
-    padding-top: 340px;
-    
+    padding-top: 370px;
+    padding-bottom: 200px;
 }
 
 
@@ -84,38 +90,33 @@
 /* my plan -skills part styles */
 
 .my-plan{
-    margin-top: 130px;
+   padding-bottom: 45px;
     text-align: center;
 
-}
-.web-img{
-    height: 90px;
-    align-items: center;
-}
-.skill-sub-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.skill-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   
 }
 
+
+.skill-container{
+   justify-content:space-evenly; 
+    display: flex;
+    text-align: center;
+}
+
+ 
 /* watch bag gardt part styles */
-.watch{
+
+.watch-container{
 
     background-image: url('../images/watch.png');
-   height: 350px;
+    height: 350px;
+   
     background-repeat: no-repeat;
-    margin-left: 150px;
-    margin-right: 150px;
-    margin-top: 100px;
-    border-radius: 10px;
+    border-radius: 5px;
     border: 0;
-    margin-bottom: 100px;
+    margin-top: 130px;
+    margin-left: 100px;
+   
 
    
 }
@@ -139,6 +140,7 @@
     background-image: url(../images/gradient2.png); 
     background-repeat: no-repeat;
     height: 600px;
+    
 }
 
 /* input future  part styles */
